@@ -1,0 +1,295 @@
+:root {
+        --text-color:#4D5AE5;;
+        --primary-white-color: #ffffff;
+        --primary-font: "Roboto", sans-serif;
+        --logo-color: #2E2F42;
+        --background-color: #F4F4FD; 
+        --secondary-color: #434455;
+        --button-color: #FFF;
+        --button-background:#404BBF;
+        --hero-button-background:#4D5AE5; 
+}
+
+/* Common Styles */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+/**
+  |============================
+  | Header Styles-index
+  |============================
+*/
+
+.header-nav-list {}
+
+.header-link-logo {
+        color: var(--text-color);
+        font-size: 18px;
+        font-family: "Raleway", sans-serif;
+        text-decoration: none;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+}
+
+.link {
+        text-decoration: none;
+}
+
+.header-name {
+        color: var(--logo-color);
+}
+
+.header-list {}
+
+.list {
+        list-style: none;
+}
+
+.header-items {}
+
+.header-link {
+        font-size: 16px;
+        color: var(--logo-color);
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.header-link:hover {color: #404BBF;}
+.header-link:focus {color:#404BBF}
+
+.address-items {
+        text-decoration: none;
+        font-style: normal;
+        
+}
+
+.address-link {
+        text-decoration: none;
+        color: var(--secondary-color);
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.address-link:hover {color: #404BBF}
+.address-link:focus {color:#404BBF}
+
+.company-address {
+        font-style: normal;
+}
+
+.address-list {
+        font-style: normal;
+}
+
+/**
+  |============================
+  | Hero Style-index
+  |============================
+*/
+.hero-section {
+    background-color: var(--logo-color);
+}
+
+.hero-name {
+        font-size: 56px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        color: var(--button-color);
+        line-height: 1.07;
+        text-align: center;
+        
+}
+
+.hero-button {
+        background-color:var(--hero-button-background);
+        color: var(--button-color);
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        font-weight: 500;
+}
+
+.hero-button:hover {background-color: #404BBF;}
+.hero-button:focus {background-color: #404BBF;}
+
+/**
+  |============================
+  | Features Styles-index
+  |============================
+*/
+.features-section {
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        color: var(--logo-color);
+        line-height: 1.2;
+}
+
+.feature-items {
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        color: var(--secondary-color);
+        line-height: 1.5;
+}
+/**
+  |============================
+  | What are we doing/Duties Styles-index
+  |============================
+*/
+.duties {
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--logo-color);
+        text-align: center;
+        line-height: 1.11;
+}
+
+.duties-photo {}
+
+/**
+  |============================
+  | Our Team Styles-index
+  |============================
+*/
+
+.our-team-section {
+        background-color: var(--background-color);
+}
+
+.our-team {
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--logo-color);
+        line-height: 1.11;
+        text-align: center;
+}
+
+.employee-photo {
+        background-color: var(--primary-white-color);
+}
+
+.employee-name {
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.4px;
+        color: var(--logo-color);
+        line-height: 1.2;
+}
+
+.employee-job {
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        color: var(--secondary-color);
+        line-height: 1.5;
+}
+.employee-list {
+        background-color: var(--primary-white-color);
+}
+
+/**
+  |============================
+  | Footer Section Styles-index
+  |============================
+*/
+.footer {
+    background-color: var(--logo-color);
+   
+}
+
+.footer-logo {
+        font-size: 18px;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--text-color);
+        font-family: "Raleway", sans-serif;
+        line-height: 1.17;
+        text-decoration: none;
+
+}
+
+.footer-logo-studio {
+        color: var(--background-color);
+
+}
+
+.footer-mission {
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        color: var(--background-color);
+        line-height: 1.5;
+
+}
+/**
+  |============================
+  | Buttons Styles-Portfolio
+  |============================
+*/
+
+.project-button:hover {
+        background-color: var(--button-background);
+        color: var(--button-color);
+}
+
+.project-button:focus {
+        background-color: var(--button-background);
+        color: var(--button-color);
+}
+
+.project-button {
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+        color: var(--text-color);
+        background-color: var(--background-color);
+        cursor: pointer;
+        font-family: inherit;
+        line-height: 1.5;
+        font-family: "Roboto", sans-serif;
+}
+
+.project-button-list {
+        list-style: none;
+}
+
+/**
+  |============================
+  | Projects Styles-Portfolio
+  |============================
+*/
+.company-services {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--logo-color);
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        
+}
+
+.company-depts {
+        font-size: 16px;
+        color: var(--secondary-color);
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        
+  
+}
+
+.company-services-list {
+        list-style: none;
+}
+.company-illustrations {
+        text-decoration: none;
+}
