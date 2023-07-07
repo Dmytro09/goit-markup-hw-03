@@ -281,7 +281,7 @@ position: absolute;
 }
 
 .employees-positions-names {
-        margin-bottom: 72px;
+
 }
 
 .our-team {
@@ -365,6 +365,7 @@ position: absolute;
 
 .footer-logo-studio {
         color: var(--background-color);
+        display: inline-block
 
 }
 
@@ -391,11 +392,13 @@ position: absolute;
 .project-button:hover {
         background-color: var(--button-background);
         color: var(--button-color);
+        border: 1px solid transparent;
 }
 
 .project-button:focus {
         background-color: var(--button-background);
         color: var(--button-color);
+        border: 1px solid transparent;
 }
 
 .project-button {
