@@ -10,14 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="./css/styles.css" />
     <!-- Normalize -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
 <!--Header Section-->
-<header>
+<header class="header-class">
     <div class="header-container container">
     <nav class="header-nav-list">
         <a class="header-link-logo link" href="./index.html">WEB<span class="header-name">Studio</span></a>
@@ -53,11 +53,13 @@
     <!--Feature Section-->
     <section class="feature-section">
         <div class="container">
-            <h2 hidden>Features</h2>
+            <h2 hidden class="features visually-hidden">Features</h2>
             <ul class="features-section-list list">
                 <li class="features-list list">
-                    <h3 class="features-section">Strategy</h3>
-                    <p class="feature-items">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+                    <div class="employees-positions-names">
+                        <h3 class="features-section">Strategy</h3>
+                        <p class="feature-items">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+                    </div>
                 </li>
                 <li class="features-list list">
                     <h3 class="features-section">Punctuality</h3>
@@ -91,20 +93,28 @@
             <h2 class="our-team">Our Team</h2>
             <ul class="employees-list list">
                 <li class="employee-photo list"><img src="./images/team/img-1.jpg" alt="employee1" width="264">
-                <h3 class="employee-name">Mark Guerrero</h3>
-                <p class="employee-job">Product Designer</p>
+                <div class="employees-positions-names">
+                    <h3 class="employee-name">Mark Guerrero</h3>
+                    <p class="employee-job">Product Designer</p>
+                </div>
                 </li>
                 <li class="employee-photo list"><img src="./images/team/img-2.jpg" alt="employee2" width="264">
-                <h3 class="employee-name">Tom Ford</h3>
-                <p class="employee-job">Frontend Developer</p>
+                <div class="employees-positions-names">
+                    <h3 class="employee-name">Tom Ford</h3>
+                    <p class="employee-job">Frontend Developer</p>
+                </div>
                 </li>
                 <li class="employee-photo list"><img src="./images/team/img-3.jpg" alt="employee3" width="264">
-                <h3 class="employee-name">Camila Garcia</h3>
-                <p class="employee-job">Marketing</p>
+                <div class="employees-positions-names">
+                    <h3 class="employee-name">Camila Garcia</h3>
+                    <p class="employee-job">Marketing</p>
+                </div>
                 </li>
                 <li class="employee-photo list"><img src="./images/team/img-4.jpg" alt="employee4" width="264">
-                <h3 class="employee-name">Daniel Wilson</h3>
-                <p class="employee-job">UI Designer</p>
+                <div class="employees-positions-names">
+                    <h3 class="employee-name">Daniel Wilson</h3>
+                    <p class="employee-job">UI Designer</p>
+                </div>
                 </li>
             </ul>
         </div>

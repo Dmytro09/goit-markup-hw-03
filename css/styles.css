@@ -19,7 +19,7 @@ body {
 }
 
 img {
-        block
+        display: block;
 }
 
 /* Reset */
@@ -38,6 +38,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
         width: 1158px;
         padding: 0 15px;
         margin: 0 auto;
+}
+
+.header-class {
+        border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav-list {
@@ -173,6 +177,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
         margin-left: auto;
         display: block;
         border: transparent;
+        min-width: 169px;
 
 }
 
@@ -217,6 +222,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
         letter-spacing: 0.02em;
         color: var(--secondary-color);
         line-height: 1.5;
+        margin-bottom: 8px;
+
 }
 /**
   |============================
@@ -243,7 +250,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
         color: var(--logo-color);
         text-align: center;
         line-height: 1.11;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 
 .duties-photo {}
@@ -257,6 +264,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .our-team-section {
         background-color: var(--background-color);
         padding: 120px 0;
+}
+
+.employees-positions-names {
+        margin-bottom: 72px;
 }
 
 .our-team {
@@ -294,6 +305,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
         letter-spacing: 0.4px;
         color: var(--logo-color);
         line-height: 1.2;
+        margin-bottom: 8px;
 }
 
 .employee-job {
