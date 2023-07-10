@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
         display: flex;
         align-items: center;
         gap: 40px;
-        padding: 24px 0;
+ 
 }
 
 .list {
@@ -100,6 +100,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
         letter-spacing: 0.02em;
         align-items: center;
         padding: 24px 0;
+        display: block;
 }
 .header-link:hover {color: #404BBF;}
 .header-link:focus {color:#404BBF}
@@ -107,7 +108,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .address-items {
         text-decoration: none;
         font-style: normal;
-        padding: 24px 0;
         
 }
 
@@ -216,7 +216,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
         color: var(--logo-color);
         line-height: 1.2;
         height: 24px;
-        margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -299,10 +298,7 @@ position: absolute;
 }
 
 .our-team-class {
-        padding-top: 32px;
-        padding-bottom: 32px;
-        padding-right: 16px;
-        padding-right: 16px;
+ 
 }
 
 .employees-list {
@@ -378,7 +374,6 @@ position: absolute;
         line-height: 1.5;
         width: 264px;
         height: 72px;
-        margin-top: 17.5px;
 
 }
 /**
@@ -419,13 +414,19 @@ position: absolute;
 }
 
 .project-button-list {
+        margin-bottom: 72px;
         list-style: none;
         display: flex;
         justify-content: center;
         gap: 24px;
-        margin-bottom: 72px;
-        
         }
+        
+
+.project-buttonsitem {
+        
+}
+       
+
 
 /**
   |============================
