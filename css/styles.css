@@ -216,6 +216,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
         color: var(--logo-color);
         line-height: 1.2;
         height: 24px;
+        margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -423,7 +424,7 @@ position: absolute;
         
 
 .project-buttonsitem {
-        
+
 }
        
 
